@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="        
+
+   <script src=" https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.js"
+    integrity="sha512-CX7sDOp7UTAq+i1FYIlf9Uo27x4os+kGeoT7rgwvY+4dmjqV0IuE/Bl5hVsjnQPQiTOhAX1O2r2j5bjsFBvv/A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+  <nav id="navbar">
+    <div id="top">Portfolio</div>
+    <ul class="topsm">
+      <li id="menu">Menu</li>
+      <li>
+        <ul id="dropdown">
+          <li><a id="#welcome-section" href="#Aboutme">About Me</a>
+          </li>
+          <li>
+            <a href="/contact.html" target="_blank">Contact Us </a>
+          </li>
+
+
+          <li> <a href="#Projects"> Projects </a></li>
+
+          <li> <a href="#Services"> Services</a></li>
+        </ul>
+      </li>
+    </ul>
+
+
+    <ul class="toplg">
+      <li> <a id="#welcome-section" href="#Aboutme">About Me</a>
+      </li>
+      <li>
+        <a href="/contact.html" target="_blank">Contact Us </a>
+      </li>
+
+
+      <li> <a href="#Projects"> Projects </a></li>
+
+      <li> <a href="#Services"> Services</a></li>
+    </ul>
+
+  </nav>
+  <div id="pagecon">
+    <div id="maincon">
+
+      <div id="Aboutme">
+        <h2>About Me</h2>
+        <p>I am Eyitayo Babatope, a self-taught programmer with experience in HTML, CSS, JavaScript, Reactjs,
+          Nodejs,Python, PHP. I got introduced to programming when I took CSC 201 in the University when we were taught
+          FORTRAN. One of the reason I love programming is because, I love challenges and programming enable me to test
+          these skills. My goals are to develop apps that solve human challenges and secure a lucrative job in the tech
+          space.
+      </div>
+
+      <div id="projects">
+        <div id="Projects" class="projcob">
+          <h2>Projects</h2>
+          <p>This section contains various project I have executed </p>
+          <ol start="a">
+            <li>File Encryption and Decryption Application developed using Python</li>
+            <li>Text to Speech Application developed Using Python</li>
+            <li>Task Automation Script Using Python</li>
+            <li>Markdown Parser developed Using React</li>
+            <li>Random Quote Generator developed Using React</li>
+            <li>Responsive Web Design(html,css,javascript</li>
+            <li>Blog develooment using PHP</li>
+
+          </ol>
+        </div>
+        <div id="Services" class="projcon">
+          <h2>My Services</h2>
+          <ul>
+            <li>Desktop and Mobile Application Developnent</li>
+            <li>FrontEnd Web Development</li>
+            <li>BackEnd Web Development</li>
+            <li>Task Automation</li>
+            <li>Responsive Wev Design</li>
+            <li>Graphic Design</li>
+            <li>Video Editing</li>
+            <li>Branding & Customization</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+    <div id="profile">
+      <div id="projcon">
+        <h2>Profile</h2>
+        <figure>
+          <img src=" https://pbs.twimg.com/profile_images/1106447643532759040/2Lwm3AM-.jpg " alt="eyitayo's image">
+          <figcaption>Eyitayo Babatope</figcaption>
+        </figure>
+        <p>email:eyitayoit@gmail.com</p>
+        <p><a href="/contact.html" target="_blank">Contact Me</a></p>
+
+      </div>
+    </div>
+  </div>
+  <script>
+    let menu = document.getElementById("menu")
+    let dropdown = document.getElementById("dropdown")
+    menu.addEventListener('click', (event) => {
+      if (dropdown.style.display == "none") {
+        dropdown.style.display = "flex"
+      }
+      else {
+        dropdown.style.display = "none"
+      }
+    })
+  </script>
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+  <footer>&copy 2022</footer>
+</body>
+
+</html>

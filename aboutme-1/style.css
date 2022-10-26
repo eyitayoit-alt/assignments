@@ -1,0 +1,186 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+ background-color:#fff;
+ text-align:justify;
+ font-size:0.2in;
+} 
+ul.topsm{
+  list-style:none;
+}
+  #navbar{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  gap:0.1in;
+  color:#dd0000;
+  box-shadow:0 10px 5px #ddd;
+}
+
+#contact{
+  text-align:center;
+  color:#0d0;
+}
+#dropdown{
+  display:none;
+  flex-direction:column;
+  text-decoration:none;
+  list-style:none;
+  gap:10px;
+  position:absolute;
+  right:2vw;
+  width:25vw;
+  padding:15px;
+  background-color:#0d0;
+  z-index:1500;
+  
+  align-items:center;
+}
+ul.toplg{
+display:none;  
+}
+header{
+  font-size:0.15in;
+  background-color:#36e236;
+}
+
+#top{
+  font-weight:bold;
+font-size:20px;
+  
+}
+h2{
+  color:#0d0;
+}
+li{
+  position:relative;
+  top:-15px;
+ 
+}
+#dropdown a{
+  color:#fff;
+}
+li>a{
+  text-decoration:none;
+  color:#d00;
+font-weight:bold;
+  font-size:14px;
+  font-style:normal;
+}
+#maincon{
+  display:flex;
+  flex-direction:column;
+}
+
+#pagecon{
+  display:row;
+  flex-direction:column;
+  padding:0.15in;
+}
+#imgcon{
+ display:flex;
+ flex-direction:column;
+}
+section{
+  margin:0 15%;
+  text-align:center;
+}
+img{
+  width:80%;
+  border-radius:10px;
+  margin:0px auto;
+}
+a{
+ text-decoration:none; 
+ font-style:italic;
+ color:#0aa;
+}
+form{
+  
+  box-sizing:border-box;
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+  font-family:Verdana;
+  
+  font-size:20px;
+  width:80%;
+ margin:0.1in auto;
+ padding:0.15in;
+
+ height:70vh;
+ border:0.025in solid rgb(150,150,150);
+ border-radius:0.2in;
+
+ 
+
+}
+input,select,textarea{
+  width:100%;
+  border-radius:0.1in;
+  margin-bottom:0.05in;
+  font-family:Arial;
+  height:25px;
+  
+}
+textarea{
+  height:40vh;
+}
+button{
+  background-color:rgba(12,196,0,0.8);
+  color:#fff;
+  margin-top:0.104in;
+  font-size:18px;
+  width:20vw;
+  border-radius:5px;
+  position:relative;
+  margin-left:70%;
+  }
+footer{
+text-align:center;
+  color:#fff;
+  background-color:#36e236;
+}
+
+
+@media screen and (min-width:800px){
+  #maincon{
+    width:70%;
+  }
+  #pagecon{
+    display:flex;
+    flex-direction:row;
+    gap:20px;
+  }
+  #profile{
+    
+    width:25%;
+  }
+  #top{
+    font-size:40px;
+  }
+  li>{
+    font-size:30px;
+  }
+html{
+    font-size:1in;
+  }
+  form{
+    margin:1.5in auto;
+    width:80vw;
+    height:50vh;
+  }
+  ul.topsm{
+    display:none;
+  }
+  ul.toplg{
+    display:flex;
+    flex-direction:row;
+    list-style:none;
+    gap:0.2in;
+   
+  }
+}
